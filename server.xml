@@ -54,7 +54,6 @@
               username="admin" 
               password="powermvp" 
               driverClassName="com.mysql.cj.jdbc.Driver"
-			  <!-- RDS로 DB 생성 후 엔드포인트를 변경해 준다. -->
 	          url="jdbc:mysql://mydb.cgk8gkvkx4cw.ap-northeast-2.rds.amazonaws.com:3306/board_db?useSSL=true&amp;serverTimezone=UTC"/>
   </GlobalNamingResources>
 
@@ -192,6 +191,7 @@
   </Service>
 
 </Server>
+
 
 
 
